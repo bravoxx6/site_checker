@@ -143,3 +143,8 @@
 2026-02-13 11:01:04,379 - URL: https://www.britannica.com/topic/wiki | Response Time: 2.44 seconds | Status: UP | Open ports: [80, 443] | Error: None
 2026-02-13 11:01:19,502 - URL: https://www.facebook.com/ | Response Time: 0.89 seconds | Status: 400 | Open ports: [80, 443] | Error: None
 2026-02-13 11:23:09,607 - URL: https://www.facebook.com/ | Response Time: 0.76 seconds | Status: UP | Open ports: [80, 443] | Error: None
+2026-02-13 12:27:41,953 - URL: https://www.facebook.com/ | Response Time: 3.23 seconds | Status: DOWN (HTTP 400) | Open ports: [80, 443] | Error: None
+2026-02-13 12:27:58,222 - URL: https://www.youtube.com/ | Response Time: 12.08 seconds | Status: UP | Open ports: [80, 443] | Error: None
+2026-02-13 12:27:58,324 - URL: https://dattebae.com/ | Response Time: None seconds | Status: DOWN | Open ports: None | Error: An error occurred: HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-13 12:28:04,284 - URL: https://www.wikipedia.org/ | Response Time: 1.69 seconds | Status: UP | Open ports: [80, 443] | Error: None
+2026-02-13 12:28:27,552 - URL: https://play.google.com/store/apps/ | Response Time: 18.33 seconds | Status: UP | Open ports: [80, 443] | Error: None

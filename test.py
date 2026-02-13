@@ -1,9 +1,11 @@
 import requests, time, logging, socket, asyncio
 from urllib.parse import urlparse
 
-async def check_port(host):
+def check_port(host):
     COMMON_PORTS = [80, 20, 443, 21, 22, 3306]
+
     open_ports = []
+
     try:
         for port in COMMON_PORTS:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
@@ -25,7 +27,7 @@ async def check_port(host):
 
 
 
-async def check_url(url):
+def check_url(url):
     try:
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
@@ -61,9 +63,9 @@ async def check_url(url):
 
 logging.basicConfig(filename='logs.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
 
-async def analyse_urls(urls):
+def analyse_urls(urls):
     for url in urls:
-        result = await check_url(url)
+        result = check_url(url)
         print(f"URL: {result['url']}, Response Time: {result['response_time']} seconds, Status: {result['status']}, Error: {result['error']}, Open Ports: {result['port_info']}")
         logging.info(f"URL: {result['url']} | Response Time: {result['response_time']} seconds | Status: {result['status']} | Open ports: {result['port_info']} | Error: {result['error']}")
 
