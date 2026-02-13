@@ -1,11 +1,18 @@
 import socket
+import json
 
+try:
+    with open('config.json', 'r') as f:
+        config = json.load(f)
+        ports_to_check = config.get("ports", [])
+except FileNotFoundError:
+    print("Configuration file 'config.json' not found. Please create it with the necessary ports to check.")
+    ports_to_check = [80, 20, 443, 21, 22, 3306]  # Default common ports if config is missing
 
 def check_port(host):
-    COMMON_PORTS = [80, 20, 443, 21, 22, 3306]
+    COMMON_PORTS = ports_to_check
 
     open_ports = []
-
     try:
         for port in COMMON_PORTS:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:

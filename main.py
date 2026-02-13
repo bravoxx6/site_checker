@@ -3,7 +3,20 @@ from urllib.parse import urlparse
 from ports import check_port
 from checker import check_url
 from logger import logging
+import json
 
+file_path = 'config.json'
+
+try:
+    with open(file_path, 'r') as f:
+        config = json.load(f)
+        urls_to_check = config.get("urls", [])
+        ports_to_check = config.get("ports", [])
+        
+except FileNotFoundError:
+    print(f"Configuration file '{file_path}' not found. Please create it with the necessary URLs.")
+    urls_to_check = []
+    
 
 def analyse_urls(urls):
     for url in urls:
@@ -14,7 +27,7 @@ def analyse_urls(urls):
 try:
     while True:
         print("Starting URL analysis...")
-        analyse_urls(["https://www.facebook.com/", "https://www.youtube.com/", "https://dattebae.com/","https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://commons.wikimedia.org/wiki/Main_Page", "https://www.britannica.com/topic/wiki"])
+        analyse_urls(urls_to_check)
         time.sleep(5)
 except KeyboardInterrupt:
     print("URL analysis stopped by user.")

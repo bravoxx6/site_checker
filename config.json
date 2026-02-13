@@ -1,0 +1,19 @@
+{
+  "interval": 5,
+  "http_timeout": 20,
+  "log_file": "logs.txt",
+  "ports": [80, 443, 22, 21, 3306],
+  "urls": [
+    "https://www.facebook.com/",
+    "https://www.youtube.com/",
+    "https://www.wikipedia.org/",
+    "https://play.google.com/store/apps/",
+    "https://www.facebook.com/", 
+    "https://www.youtube.com/", 
+    "https://dattebae.com/",
+    "https://www.wikipedia.org/",
+    "https://play.google.com/store/apps/", 
+    "https://commons.wikimedia.org/wiki/Main_Page", 
+    "https://www.britannica.com/topic/wiki"
+  ]
+}
