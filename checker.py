@@ -30,6 +30,6 @@ def check_url(url):
             "url": url, 
             "response_time": None, 
             "status": "DOWN", 
-            "error": f"An error occurred: {e}",
+            "error": str(e),
             "port_info": None
             }

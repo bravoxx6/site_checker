@@ -2,7 +2,7 @@ import requests, time, logging, socket, asyncio
 from urllib.parse import urlparse
 from ports import check_port
 from checker import check_url
-from logger import logging
+from logger import logging, log_result
 import json
 
 file_path = 'config.json'
@@ -22,7 +22,7 @@ def analyse_urls(urls):
     for url in urls:
         result = check_url(url)
         print(f"URL: {result['url']}, Response Time: {result['response_time']} seconds, Status: {result['status']}, Error: {result['error']}, Open Ports: {result['port_info']}")
-        logging.info(f"URL: {result['url']} | Response Time: {result['response_time']} seconds | Status: {result['status']} | Open ports: {result['port_info']} | Error: {result['error']}")
+        log_result(result)
 
 try:
     while True:
