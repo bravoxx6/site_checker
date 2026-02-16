@@ -4,7 +4,7 @@ from ports import check_port
 from checker import check_url
 from logger import logging, log_result
 import json
-
+from notifier import send_notification
 file_path = 'config.json'
 
 try:
@@ -23,6 +23,8 @@ def analyse_urls(urls):
         result = check_url(url)
         print(f"URL: {result['url']}, Response Time: {result['response_time']} seconds, Status: {result['status']}, Error: {result['error']}, Open Ports: {result['port_info']}")
         log_result(result)
+        if result['status'] == 'DOWN':
+            send_notification(f"Site is down: {result['url']}, Error: {result['error']}")
 
 try:
     while True:

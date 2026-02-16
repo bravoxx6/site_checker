@@ -2,6 +2,7 @@ import logging
 import json
 from datetime import datetime
 
+
 logging.basicConfig(
     filename="logs.txt",
     level=logging.INFO,
@@ -18,4 +19,5 @@ def log_result(result: dict):
         "port_info": result.get("port_info")
     }
     logging.info(json.dumps(log_entry, ensure_ascii=False))
+    
 
