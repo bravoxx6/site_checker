@@ -1,4 +1,4 @@
-import requests, time, socket
+import requests, time
 from urllib.parse import urlparse
 from ports import check_port
 

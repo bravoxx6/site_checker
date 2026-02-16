@@ -1,247 +1,171 @@
-2026-02-13 16:37:25,808 - URL: https://www.facebook.com/ | Response Time: 0.81 seconds | Status: (HTTP 400) | Open ports: [80, 443] | Error: None
-2026-02-13 16:37:30,125 - URL: https://www.youtube.com/ | Response Time: 1.15 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-13 16:37:34,364 - URL: https://www.wikipedia.org/ | Response Time: 1.03 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-13 16:37:38,595 - URL: https://play.google.com/store/apps/ | Response Time: 1.06 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 11:42:44,688 - URL: https://www.facebook.com/ | Response Time: 1.12 seconds | Status: (HTTP 400) | Open ports: [80, 443] | Error: None
-2026-02-16 11:42:49,118 - URL: https://www.youtube.com/ | Response Time: 0.96 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 11:42:53,504 - URL: https://www.wikipedia.org/ | Response Time: 1.11 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 11:42:57,776 - URL: https://play.google.com/store/apps/ | Response Time: 1.03 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 11:43:01,775 - URL: https://www.facebook.com/ | Response Time: 0.78 seconds | Status: (HTTP 400) | Open ports: [80, 443] | Error: None
-2026-02-16 11:43:05,932 - URL: https://www.youtube.com/ | Response Time: 0.95 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 11:43:06,087 - URL: https://dattebae.com/ | Response Time: None seconds | Status: DOWN | Open ports: None | Error: An error occurred: HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)"))
-2026-02-16 11:43:10,254 - URL: https://www.wikipedia.org/ | Response Time: 0.94 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 11:43:14,461 - URL: https://play.google.com/store/apps/ | Response Time: 1.03 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 11:43:19,120 - URL: https://commons.wikimedia.org/wiki/Main_Page | Response Time: 1.27 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 11:43:24,787 - URL: https://www.britannica.com/topic/wiki | Response Time: 2.48 seconds | Status: UP | Open ports: [80, 443] | Error: None
-2026-02-16 13:35:28,714 - INFO - {"timestamp": "2026-02-16T13:35:28.714161", "url": "https://www.facebook.com/", "response_time": 0.94, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-2026-02-16 13:35:32,881 - INFO - {"timestamp": "2026-02-16T13:35:32.880870", "url": "https://www.youtube.com/", "response_time": 0.94, "status": "UP", "error": null, "port_info": [80, 443]}
-2026-02-16 13:35:37,221 - INFO - {"timestamp": "2026-02-16T13:35:37.221593", "url": "https://www.wikipedia.org/", "response_time": 1.01, "status": "UP", "error": null, "port_info": [80, 443]}
-2026-02-16 13:35:41,636 - INFO - {"timestamp": "2026-02-16T13:35:41.636707", "url": "https://play.google.com/store/apps/", "response_time": 1.19, "status": "UP", "error": null, "port_info": [80, 443]}
-2026-02-16 13:35:45,657 - INFO - {"timestamp": "2026-02-16T13:35:45.657121", "url": "https://www.facebook.com/", "response_time": 0.84, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-2026-02-16 13:35:49,757 - INFO - {"timestamp": "2026-02-16T13:35:49.757831", "url": "https://www.youtube.com/", "response_time": 0.93, "status": "UP", "error": null, "port_info": [80, 443]}
-2026-02-16 13:35:50,020 - INFO - {"timestamp": "2026-02-16T13:35:50.020597", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-2026-02-16 13:35:54,143 - INFO - {"timestamp": "2026-02-16T13:35:54.143333", "url": "https://www.wikipedia.org/", "response_time": 0.9, "status": "UP", "error": null, "port_info": [80, 443]}
-2026-02-16 13:35:58,372 - INFO - {"timestamp": "2026-02-16T13:35:58.372555", "url": "https://play.google.com/store/apps/", "response_time": 1.04, "status": "UP", "error": null, "port_info": [80, 443]}
-2026-02-16 13:36:05,703 - INFO - {"timestamp": "2026-02-16T13:36:05.703367", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 2.75, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:21.364344", "url": "https://www.facebook.com/", "response_time": 0.94, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:25.550833", "url": "https://www.youtube.com/", "response_time": 1.02, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:29.674020", "url": "https://www.wikipedia.org/", "response_time": 0.9, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:34.150775", "url": "https://play.google.com/store/apps/", "response_time": 1.3, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:38.210838", "url": "https://www.facebook.com/", "response_time": 0.87, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:42.266734", "url": "https://www.youtube.com/", "response_time": 0.88, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:42.404849", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T13:36:49.002917", "url": "https://www.wikipedia.org/", "response_time": 2.54, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:53.627034", "url": "https://play.google.com/store/apps/", "response_time": 1.44, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:36:57.860138", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.91, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:37:01.855571", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.95, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:59:37.491996", "url": "https://www.facebook.com/", "response_time": 0.88, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:59:41.717382", "url": "https://www.youtube.com/", "response_time": 1.0, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:59:45.978944", "url": "https://www.wikipedia.org/", "response_time": 0.98, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T13:59:59.766455", "url": "https://play.google.com/store/apps/", "response_time": 10.5, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:00:03.944182", "url": "https://www.facebook.com/", "response_time": 0.89, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:00:08.093822", "url": "https://www.youtube.com/", "response_time": 0.99, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:00:08.193212", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T14:01:18.205811", "url": "https://www.facebook.com/", "response_time": 0.81, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:01:22.353164", "url": "https://www.youtube.com/", "response_time": 0.97, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:01:26.497381", "url": "https://www.wikipedia.org/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:01:34.066851", "url": "https://play.google.com/store/apps/", "response_time": 4.36, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:01:38.046846", "url": "https://www.facebook.com/", "response_time": 0.78, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:01:42.320459", "url": "https://www.youtube.com/", "response_time": 1.08, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:01:42.403969", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T14:03:11.736088", "url": "https://www.facebook.com/", "response_time": 0.81, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:03:15.816937", "url": "https://www.youtube.com/", "response_time": 0.92, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:03:20.198661", "url": "https://www.wikipedia.org/", "response_time": 1.06, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:03:27.514131", "url": "https://play.google.com/store/apps/", "response_time": 4.15, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:03:31.542261", "url": "https://www.facebook.com/", "response_time": 0.84, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:03:35.660377", "url": "https://www.youtube.com/", "response_time": 0.92, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:03:36.064601", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T14:03:42.919744", "url": "https://www.wikipedia.org/", "response_time": 3.16, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:15:37.498644", "url": "https://www.facebook.com/", "response_time": 1.13, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:15:41.758229", "url": "https://www.youtube.com/", "response_time": 1.01, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:15:46.106861", "url": "https://www.wikipedia.org/", "response_time": 1.04, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:15:50.619369", "url": "https://play.google.com/store/apps/", "response_time": 1.24, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:15:54.902589", "url": "https://www.facebook.com/", "response_time": 1.01, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:15:59.024887", "url": "https://www.youtube.com/", "response_time": 0.95, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:15:59.128141", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T14:16:58.367385", "url": "https://www.facebook.com/", "response_time": 0.88, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:17:02.421769", "url": "https://www.youtube.com/", "response_time": 0.9, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:17:06.613230", "url": "https://www.wikipedia.org/", "response_time": 0.95, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:17:10.836141", "url": "https://play.google.com/store/apps/", "response_time": 1.02, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:17:14.985212", "url": "https://www.facebook.com/", "response_time": 0.97, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:17:19.196338", "url": "https://www.youtube.com/", "response_time": 0.98, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:17:19.302250", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T14:17:23.402339", "url": "https://www.wikipedia.org/", "response_time": 0.88, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:48:56.819873", "url": "https://www.facebook.com/", "response_time": 1.77, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:49:01.026351", "url": "https://www.youtube.com/", "response_time": 0.94, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:49:05.384023", "url": "https://www.wikipedia.org/", "response_time": 1.05, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:49:22.478602", "url": "https://www.facebook.com/", "response_time": 0.74, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:49:27.414807", "url": "https://www.youtube.com/", "response_time": 0.85, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:50:21.372138", "url": "https://www.facebook.com/", "response_time": 10.05, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:50:48.620705", "url": "https://www.youtube.com/", "response_time": 19.31, "status": "UP", "error": null, "port_info": []}
-{"timestamp": "2026-02-16T14:52:22.591488", "url": "https://www.facebook.com/", "response_time": 0.97, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:52:27.456864", "url": "https://www.youtube.com/", "response_time": 0.93, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:52:32.890783", "url": "https://www.wikipedia.org/", "response_time": 1.1, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:52:38.059180", "url": "https://play.google.com/store/apps/", "response_time": 1.09, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:52:42.973026", "url": "https://www.facebook.com/", "response_time": 0.78, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:53:17.837762", "url": "https://www.facebook.com/", "response_time": 0.76, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:55:35.627040", "url": "https://www.facebook.com/", "response_time": 0.86, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:55:40.524510", "url": "https://www.youtube.com/", "response_time": 0.91, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:56:22.019759", "url": "https://www.facebook.com/", "response_time": 0.75, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:56:26.849435", "url": "https://www.youtube.com/", "response_time": 0.85, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:57:22.764434", "url": "https://www.facebook.com/", "response_time": 0.88, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:57:32.639076", "url": "https://www.youtube.com/", "response_time": 4.37, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:57:49.589758", "url": "https://www.wikipedia.org/", "response_time": 10.25, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:57:54.715884", "url": "https://play.google.com/store/apps/", "response_time": 1.09, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:58:02.101759", "url": "https://www.facebook.com/", "response_time": 1.26, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:58:08.764886", "url": "https://www.youtube.com/", "response_time": 2.65, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:58:09.676893", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T14:58:15.408581", "url": "https://www.wikipedia.org/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:58:20.580501", "url": "https://play.google.com/store/apps/", "response_time": 1.07, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:58:25.835445", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 1.14, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:58:58.507564", "url": "https://www.facebook.com/", "response_time": 0.82, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:59:04.326721", "url": "https://www.youtube.com/", "response_time": 2.65, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:59:08.678830", "url": "https://www.wikipedia.org/", "response_time": 1.0, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:59:12.859772", "url": "https://play.google.com/store/apps/", "response_time": 1.03, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:59:16.915699", "url": "https://www.facebook.com/", "response_time": 0.81, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:59:22.783546", "url": "https://www.youtube.com/", "response_time": 2.67, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T14:59:22.901507", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T14:59:43.871390", "url": "https://www.wikipedia.org/", "response_time": null, "status": "DOWN", "error": "The request timed out", "port_info": null}
-{"timestamp": "2026-02-16T14:59:48.902577", "url": "https://play.google.com/store/apps/", "response_time": 1.02, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:09.608041", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": null, "status": "DOWN", "error": "The request timed out", "port_info": null}
-{"timestamp": "2026-02-16T15:00:15.272649", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.03, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:24.476907", "url": "https://www.facebook.com/", "response_time": 0.92, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:30.608877", "url": "https://www.youtube.com/", "response_time": 2.95, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:34.706148", "url": "https://www.wikipedia.org/", "response_time": 0.9, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:38.914833", "url": "https://play.google.com/store/apps/", "response_time": 1.03, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:42.905304", "url": "https://www.facebook.com/", "response_time": 0.78, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:49.035738", "url": "https://www.youtube.com/", "response_time": 2.94, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:49.168694", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:00:54.056152", "url": "https://www.wikipedia.org/", "response_time": 0.86, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:00:58.284716", "url": "https://play.google.com/store/apps/", "response_time": 1.02, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:05.488931", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 3.3, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:09.655399", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.12, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:18.770507", "url": "https://www.facebook.com/", "response_time": 0.87, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:24.935293", "url": "https://www.youtube.com/", "response_time": 2.97, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:29.065710", "url": "https://www.wikipedia.org/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:36.655829", "url": "https://play.google.com/store/apps/", "response_time": 3.52, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:40.615852", "url": "https://www.facebook.com/", "response_time": 0.74, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:47.677454", "url": "https://www.youtube.com/", "response_time": 2.94, "status": "UP", "error": null, "port_info": [443]}
-{"timestamp": "2026-02-16T15:01:47.778571", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:01:52.794844", "url": "https://www.wikipedia.org/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:01:56.965667", "url": "https://play.google.com/store/apps/", "response_time": 1.01, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:01.334767", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 1.01, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:05.465101", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.02, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:14.525773", "url": "https://www.facebook.com/", "response_time": 0.81, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:20.667581", "url": "https://www.youtube.com/", "response_time": 2.97, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:24.912727", "url": "https://www.wikipedia.org/", "response_time": 1.0, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:29.255597", "url": "https://play.google.com/store/apps/", "response_time": 1.08, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:33.290392", "url": "https://www.facebook.com/", "response_time": 0.82, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:37.533267", "url": "https://www.youtube.com/", "response_time": 0.99, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:37.624405", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:02:42.544456", "url": "https://www.wikipedia.org/", "response_time": 0.86, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:47.635071", "url": "https://play.google.com/store/apps/", "response_time": 0.98, "status": "UP", "error": null, "port_info": [443]}
-{"timestamp": "2026-02-16T15:02:51.729897", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:02:55.889062", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.99, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:03:07.530734", "url": "https://www.facebook.com/", "response_time": 1.98, "status": "(HTTP 400)", "error": null, "port_info": [443]}
-{"timestamp": "2026-02-16T15:03:11.547850", "url": "https://www.youtube.com/", "response_time": 0.86, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:03:32.216954", "url": "https://www.wikipedia.org/", "response_time": null, "status": "DOWN", "error": "The request timed out", "port_info": null}
-{"timestamp": "2026-02-16T15:03:37.316411", "url": "https://play.google.com/store/apps/", "response_time": 1.1, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:03:41.260346", "url": "https://www.facebook.com/", "response_time": 0.77, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:03:48.379240", "url": "https://www.youtube.com/", "response_time": 2.85, "status": "UP", "error": null, "port_info": [443]}
-{"timestamp": "2026-02-16T15:03:48.495422", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:13:51.080073", "url": "https://www.facebook.com/", "response_time": 0.93, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:13:55.075502", "url": "https://www.facebook.com/", "response_time": 0.81, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:13:59.056685", "url": "https://www.facebook.com/", "response_time": 0.77, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:14:04.087606", "url": "https://www.youtube.com/", "response_time": 0.93, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:14:08.117107", "url": "https://www.youtube.com/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:14:12.212198", "url": "https://www.youtube.com/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:14:17.298021", "url": "https://www.wikipedia.org/", "response_time": 0.99, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:14:21.482962", "url": "https://www.wikipedia.org/", "response_time": 0.9, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:14:25.608643", "url": "https://www.wikipedia.org/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:14:30.852923", "url": "https://play.google.com/store/apps/", "response_time": 1.11, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:14:35.161652", "url": "https://play.google.com/store/apps/", "response_time": 1.13, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:15:36.543087", "url": "https://www.facebook.com/", "response_time": 0.8, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:15:42.165186", "url": "https://www.facebook.com/", "response_time": 1.51, "status": "(HTTP 400)", "error": null, "port_info": [443]}
-{"timestamp": "2026-02-16T15:15:46.735318", "url": "https://www.facebook.com/", "response_time": 1.35, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:15:51.642468", "url": "https://www.youtube.com/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:15:55.669999", "url": "https://www.youtube.com/", "response_time": 0.84, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:15:59.717863", "url": "https://www.youtube.com/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:03.851467", "url": "https://www.wikipedia.org/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:07.985284", "url": "https://www.wikipedia.org/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:12.172741", "url": "https://www.wikipedia.org/", "response_time": 0.95, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:16.362166", "url": "https://play.google.com/store/apps/", "response_time": 1.02, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:20.700218", "url": "https://play.google.com/store/apps/", "response_time": 1.17, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:24.946964", "url": "https://play.google.com/store/apps/", "response_time": 1.07, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:29.400877", "url": "https://www.facebook.com/", "response_time": 1.17, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:33.349334", "url": "https://www.facebook.com/", "response_time": 0.74, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:37.502782", "url": "https://www.facebook.com/", "response_time": 0.92, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:42.356563", "url": "https://www.youtube.com/", "response_time": 0.91, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:16:56.775252", "url": "https://www.facebook.com/", "response_time": 0.76, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:00.706110", "url": "https://www.facebook.com/", "response_time": 0.76, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:04.852002", "url": "https://www.facebook.com/", "response_time": 0.95, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:09.634341", "url": "https://www.youtube.com/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:25.123529", "url": "https://www.facebook.com/", "response_time": 0.94, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:29.257037", "url": "https://www.facebook.com/", "response_time": 0.91, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:33.285316", "url": "https://www.facebook.com/", "response_time": 0.81, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:38.130749", "url": "https://www.youtube.com/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:42.312498", "url": "https://www.youtube.com/", "response_time": 0.98, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:17:46.415730", "url": "https://www.youtube.com/", "response_time": 0.92, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:18:26.350402", "url": "https://www.facebook.com/", "response_time": 1.45, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:18:30.426786", "url": "https://www.facebook.com/", "response_time": 0.9, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:18:34.526624", "url": "https://www.facebook.com/", "response_time": 0.9, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:18:39.660379", "url": "https://www.youtube.com/", "response_time": 0.96, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:22:39.582869", "url": "https://www.facebook.com/", "response_time": 0.83, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:22:43.678307", "url": "https://www.facebook.com/", "response_time": 0.89, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:22:47.666165", "url": "https://www.facebook.com/", "response_time": 0.78, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:22:51.788395", "url": "https://www.youtube.com/", "response_time": 0.94, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:22:55.802570", "url": "https://www.youtube.com/", "response_time": 0.86, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:22:59.911833", "url": "https://www.youtube.com/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:04.337276", "url": "https://www.wikipedia.org/", "response_time": 1.08, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:08.483352", "url": "https://www.wikipedia.org/", "response_time": 0.92, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:12.638419", "url": "https://www.wikipedia.org/", "response_time": 0.92, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:17.079063", "url": "https://play.google.com/store/apps/", "response_time": 1.21, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:21.444416", "url": "https://play.google.com/store/apps/", "response_time": 1.11, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:25.795542", "url": "https://play.google.com/store/apps/", "response_time": 1.12, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:29.880571", "url": "https://www.facebook.com/", "response_time": 0.82, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:34.116461", "url": "https://www.facebook.com/", "response_time": 0.83, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:38.055816", "url": "https://www.facebook.com/", "response_time": 0.74, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:42.302470", "url": "https://www.youtube.com/", "response_time": 0.99, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:46.346655", "url": "https://www.youtube.com/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:50.445164", "url": "https://www.youtube.com/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:50.570769", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:23:50.575951", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:23:50.580342", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:23:55.522825", "url": "https://www.wikipedia.org/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:23:59.609316", "url": "https://www.wikipedia.org/", "response_time": 0.88, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:03.794710", "url": "https://www.wikipedia.org/", "response_time": 0.92, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:08.064677", "url": "https://play.google.com/store/apps/", "response_time": 1.08, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:12.355236", "url": "https://play.google.com/store/apps/", "response_time": 1.12, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:16.570871", "url": "https://play.google.com/store/apps/", "response_time": 1.04, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:20.931031", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 1.03, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:25.041543", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:29.163494", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:34.984171", "url": "https://www.britannica.com/topic/wiki", "response_time": 2.66, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:39.067678", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.04, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:43.024135", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.91, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:24:53.061222", "url": "https://www.facebook.com/", "response_time": 0.86, "status": "(HTTP 400)", "error": null, "port_info": [443]}
-{"timestamp": "2026-02-16T15:24:57.110321", "url": "https://www.facebook.com/", "response_time": 0.87, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:01.188379", "url": "https://www.facebook.com/", "response_time": 0.88, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:05.300503", "url": "https://www.youtube.com/", "response_time": 0.93, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:09.312960", "url": "https://www.youtube.com/", "response_time": 0.85, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:13.354238", "url": "https://www.youtube.com/", "response_time": 0.88, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:17.565493", "url": "https://www.wikipedia.org/", "response_time": 0.88, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:21.657162", "url": "https://www.wikipedia.org/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:25.754436", "url": "https://www.wikipedia.org/", "response_time": 0.87, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:30.045116", "url": "https://play.google.com/store/apps/", "response_time": 1.06, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:34.403140", "url": "https://play.google.com/store/apps/", "response_time": 1.16, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:38.631647", "url": "https://play.google.com/store/apps/", "response_time": 1.05, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:42.683416", "url": "https://www.facebook.com/", "response_time": 0.82, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:46.591000", "url": "https://www.facebook.com/", "response_time": 0.71, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:50.498824", "url": "https://www.facebook.com/", "response_time": 0.73, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:25:57.707674", "url": "https://www.youtube.com/", "response_time": 3.78, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:26:01.846414", "url": "https://www.youtube.com/", "response_time": 0.97, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:26:05.883166", "url": "https://www.youtube.com/", "response_time": 0.86, "status": "UP", "error": null, "port_info": [80, 443]}
-{"timestamp": "2026-02-16T15:26:05.974024", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:26:05.979111", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:26:05.983699", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
-{"timestamp": "2026-02-16T15:26:11.046089", "url": "https://www.wikipedia.org/", "response_time": 0.99, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:10:28.498550", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.499475", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.499959", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.499040", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.500810", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.501548", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.502085", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.503576", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.502755", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.504333", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.502492", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.503049", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.505566", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.504964", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:28.504636", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.670112", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.670720", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.671237", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.727721", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.728368", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.729011", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.729518", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.729835", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.730381", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.741298", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.741931", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.742538", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.767680", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.768278", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:29.768786", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:30.952114", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:30.952686", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:30.953175", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:30.973251", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:30.973805", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:30.974277", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.000011", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.000614", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.001102", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.020621", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.021174", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.021642", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.050158", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.050818", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:31.051320", "url": "t", "response_time": null, "status": "DOWN", "error": "Invalid URL 't': No scheme supplied. Perhaps you meant https://t?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.023860", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.024680", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.025255", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.050576", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.051205", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.051698", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.102280", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.102952", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.103448", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.171371", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.171945", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.172432", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.266778", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.267619", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:32.268109", "url": "p", "response_time": null, "status": "DOWN", "error": "Invalid URL 'p': No scheme supplied. Perhaps you meant https://p?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.271813", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.272387", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.272888", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.319803", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.320130", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.320881", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.321347", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.321813", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.322115", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.339016", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.339601", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.340096", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.569959", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.570521", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:10:33.571011", "url": "s", "response_time": null, "status": "DOWN", "error": "Invalid URL 's': No scheme supplied. Perhaps you meant https://s?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.184043", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.184641", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.185154", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.185696", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.186111", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.186661", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.186856", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.187389", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.187934", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.188847", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.189217", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.190405", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.189557", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.191116", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:12:23.191950", "url": "h", "response_time": null, "status": "DOWN", "error": "Invalid URL 'h': No scheme supplied. Perhaps you meant https://h?", "port_info": null}
+{"timestamp": "2026-02-16T16:13:45.257112", "url": "https://www.facebook.com/", "response_time": 1.0, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:13:49.262782", "url": "https://www.facebook.com/", "response_time": 0.75, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:13:53.269625", "url": "https://www.facebook.com/", "response_time": 0.81, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:13:57.611066", "url": "https://www.youtube.com/", "response_time": 1.05, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:14:01.730868", "url": "https://www.youtube.com/", "response_time": 0.91, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:14:05.808962", "url": "https://www.youtube.com/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:14:10.286445", "url": "https://www.wikipedia.org/", "response_time": 1.15, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:14:14.500413", "url": "https://www.wikipedia.org/", "response_time": 1.0, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:14:18.661847", "url": "https://www.wikipedia.org/", "response_time": 0.92, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:14:46.007615", "url": ["https://www.facebook.com/", "https://www.youtube.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://www.facebook.com/", "https://www.youtube.com/", "https://dattebae.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://commons.wikimedia.org/wiki/Main_Page", "https://www.britannica.com/topic/wiki"], "response_time": null, "status": "DOWN", "error": "No connection adapters were found for \"['https://www.facebook.com/', 'https://www.youtube.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://www.facebook.com/', 'https://www.youtube.com/', 'https://dattebae.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://commons.wikimedia.org/wiki/Main_Page', 'https://www.britannica.com/topic/wiki']\"", "port_info": null}
+{"timestamp": "2026-02-16T16:14:46.009114", "url": ["https://www.facebook.com/", "https://www.youtube.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://www.facebook.com/", "https://www.youtube.com/", "https://dattebae.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://commons.wikimedia.org/wiki/Main_Page", "https://www.britannica.com/topic/wiki"], "response_time": null, "status": "DOWN", "error": "No connection adapters were found for \"['https://www.facebook.com/', 'https://www.youtube.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://www.facebook.com/', 'https://www.youtube.com/', 'https://dattebae.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://commons.wikimedia.org/wiki/Main_Page', 'https://www.britannica.com/topic/wiki']\"", "port_info": null}
+{"timestamp": "2026-02-16T16:14:46.010428", "url": ["https://www.facebook.com/", "https://www.youtube.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://www.facebook.com/", "https://www.youtube.com/", "https://dattebae.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://commons.wikimedia.org/wiki/Main_Page", "https://www.britannica.com/topic/wiki"], "response_time": null, "status": "DOWN", "error": "No connection adapters were found for \"['https://www.facebook.com/', 'https://www.youtube.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://www.facebook.com/', 'https://www.youtube.com/', 'https://dattebae.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://commons.wikimedia.org/wiki/Main_Page', 'https://www.britannica.com/topic/wiki']\"", "port_info": null}
+{"timestamp": "2026-02-16T16:14:52.056938", "url": ["https://www.facebook.com/", "https://www.youtube.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://www.facebook.com/", "https://www.youtube.com/", "https://dattebae.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://commons.wikimedia.org/wiki/Main_Page", "https://www.britannica.com/topic/wiki"], "response_time": null, "status": "DOWN", "error": "No connection adapters were found for \"['https://www.facebook.com/', 'https://www.youtube.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://www.facebook.com/', 'https://www.youtube.com/', 'https://dattebae.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://commons.wikimedia.org/wiki/Main_Page', 'https://www.britannica.com/topic/wiki']\"", "port_info": null}
+{"timestamp": "2026-02-16T16:14:52.059196", "url": ["https://www.facebook.com/", "https://www.youtube.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://www.facebook.com/", "https://www.youtube.com/", "https://dattebae.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://commons.wikimedia.org/wiki/Main_Page", "https://www.britannica.com/topic/wiki"], "response_time": null, "status": "DOWN", "error": "No connection adapters were found for \"['https://www.facebook.com/', 'https://www.youtube.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://www.facebook.com/', 'https://www.youtube.com/', 'https://dattebae.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://commons.wikimedia.org/wiki/Main_Page', 'https://www.britannica.com/topic/wiki']\"", "port_info": null}
+{"timestamp": "2026-02-16T16:14:52.061090", "url": ["https://www.facebook.com/", "https://www.youtube.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://www.facebook.com/", "https://www.youtube.com/", "https://dattebae.com/", "https://www.wikipedia.org/", "https://play.google.com/store/apps/", "https://commons.wikimedia.org/wiki/Main_Page", "https://www.britannica.com/topic/wiki"], "response_time": null, "status": "DOWN", "error": "No connection adapters were found for \"['https://www.facebook.com/', 'https://www.youtube.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://www.facebook.com/', 'https://www.youtube.com/', 'https://dattebae.com/', 'https://www.wikipedia.org/', 'https://play.google.com/store/apps/', 'https://commons.wikimedia.org/wiki/Main_Page', 'https://www.britannica.com/topic/wiki']\"", "port_info": null}
+{"timestamp": "2026-02-16T16:18:34.329944", "url": "https://www.facebook.com/", "response_time": 1.11, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:34.361359", "url": "https://www.facebook.com/", "response_time": 1.18, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:34.406535", "url": "https://www.youtube.com/", "response_time": 1.2, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:34.518414", "url": "https://www.wikipedia.org/", "response_time": 1.26, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:34.676315", "url": "https://play.google.com/store/apps/", "response_time": 1.45, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:38.638268", "url": "https://www.facebook.com/", "response_time": 1.1, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:38.780193", "url": "https://www.facebook.com/", "response_time": 1.14, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:38.938862", "url": "https://www.youtube.com/", "response_time": 1.35, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:38.969860", "url": "https://www.wikipedia.org/", "response_time": 1.23, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:39.219712", "url": "https://play.google.com/store/apps/", "response_time": 1.36, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:42.803057", "url": "https://www.facebook.com/", "response_time": 0.98, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:42.818854", "url": "https://www.facebook.com/", "response_time": 0.87, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:42.911449", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
+{"timestamp": "2026-02-16T16:18:42.914308", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
+{"timestamp": "2026-02-16T16:18:42.916881", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
+{"timestamp": "2026-02-16T16:18:43.312776", "url": "https://www.youtube.com/", "response_time": 1.19, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:43.313104", "url": "https://www.wikipedia.org/", "response_time": 1.13, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:43.648784", "url": "https://play.google.com/store/apps/", "response_time": 1.22, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:46.909151", "url": "https://www.youtube.com/", "response_time": 0.93, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:47.528216", "url": "https://www.wikipedia.org/", "response_time": 0.97, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:47.623973", "url": "https://play.google.com/store/apps/", "response_time": 1.14, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:48.131293", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 1.11, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:49.512071", "url": "https://www.britannica.com/topic/wiki", "response_time": 2.61, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:51.001960", "url": "https://www.youtube.com/", "response_time": 0.93, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:51.718103", "url": "https://www.wikipedia.org/", "response_time": 0.96, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:51.877083", "url": "https://play.google.com/store/apps/", "response_time": 1.07, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:52.255999", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.9, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:53.452187", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:55.094332", "url": "https://www.youtube.com/", "response_time": 0.9, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:55.851264", "url": "https://www.wikipedia.org/", "response_time": 0.93, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:56.343100", "url": "https://play.google.com/store/apps/", "response_time": 1.28, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:56.391112", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.93, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:18:57.389605", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:06.677365", "url": "https://www.youtube.com/", "response_time": 1.11, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:06.681390", "url": "https://www.facebook.com/", "response_time": 1.02, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:06.740071", "url": "https://www.facebook.com/", "response_time": 1.16, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:06.755803", "url": "https://www.wikipedia.org/", "response_time": 1.14, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:06.882618", "url": "https://play.google.com/store/apps/", "response_time": 1.31, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:10.759728", "url": "https://www.facebook.com/", "response_time": 0.9, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:10.884594", "url": "https://www.facebook.com/", "response_time": 0.97, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:10.932556", "url": "https://www.youtube.com/", "response_time": 1.09, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:11.041409", "url": "https://www.wikipedia.org/", "response_time": 1.05, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:11.265469", "url": "https://play.google.com/store/apps/", "response_time": 1.18, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:14.958502", "url": "https://www.facebook.com/", "response_time": 0.86, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:14.959073", "url": "https://www.facebook.com/", "response_time": 0.96, "status": "(HTTP 400)", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:15.053656", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
+{"timestamp": "2026-02-16T16:19:15.056778", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
+{"timestamp": "2026-02-16T16:19:15.059809", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": null}
+{"timestamp": "2026-02-16T16:19:15.130740", "url": "https://www.youtube.com/", "response_time": 1.03, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:15.289241", "url": "https://www.wikipedia.org/", "response_time": 1.03, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:15.574437", "url": "https://play.google.com/store/apps/", "response_time": 1.12, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:19.185142", "url": "https://www.youtube.com/", "response_time": 1.03, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:19.488870", "url": "https://www.wikipedia.org/", "response_time": 1.12, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:19.743982", "url": "https://play.google.com/store/apps/", "response_time": 1.24, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:19.775806", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.97, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:20.414151", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.22, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:23.297704", "url": "https://www.youtube.com/", "response_time": 0.96, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:23.726482", "url": "https://www.wikipedia.org/", "response_time": 0.95, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:23.996374", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.99, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:24.169397", "url": "https://play.google.com/store/apps/", "response_time": 1.21, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:24.359512", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:27.353242", "url": "https://www.youtube.com/", "response_time": 0.89, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:27.852291", "url": "https://www.wikipedia.org/", "response_time": 0.9, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:28.168421", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.95, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:28.453918", "url": "https://play.google.com/store/apps/", "response_time": 1.12, "status": "UP", "error": null, "port_info": [80, 443]}
+{"timestamp": "2026-02-16T16:19:28.516196", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.01, "status": "UP", "error": null, "port_info": [80, 443]}
