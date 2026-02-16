@@ -1,15 +1,16 @@
 import requests
+from dotenv import load_dotenv
+import os
 
-API_TOKEN = '8189707273:AAFCh07X6Ydkr7SZhP3hAg9qqji5SjlSZpw'
-chat_id = 881438885
+load_dotenv()
 
-error_message = "The site is down"
+error_message = "There is something wrong with the site. Please check it as soon as possible."
 
 def send_notification(message):
-    url = f"https://api.telegram.org/bot{API_TOKEN}/sendMessage"
+    url = f"https://api.telegram.org/bot{os.getenv('TG_TOKEN')}/sendMessage"
 
     params = {
-        "chat_id": chat_id,
+        "chat_id": os.getenv('TG_CHAT_ID'),
         "text": f"🚨 ALERT: {message}"
     }
     try:
