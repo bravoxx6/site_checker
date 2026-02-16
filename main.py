@@ -20,15 +20,38 @@ except FileNotFoundError:
 
 def analyse_urls(urls):
     for url in urls:
-        result = check_url(url)
-        print(f"URL: {result['url']}, Response Time: {result['response_time']} seconds, Status: {result['status']}, Error: {result['error']}, Open Ports: {result['port_info']}")
-        log_result(result)
-        if result['status'] == 'DOWN':
-            send_notification(f"Site is down: {result['url']}, Error: {result['error']}")
+        down_count = 0
+        last_result = None
+
+        for _ in range(3):
+            result = check_url(url)
+            last_result = result
+
+            log_result(result)
+            if result['status'] == "DOWN":
+                down_count += 1
+
+        print(f"URL: {last_result['url']}, "
+              f"Response Time: {last_result['response_time']}s, "
+              f"Status: {last_result['status']}, "
+              f"Error: {last_result['error']}, "
+              f"Open Ports: {last_result['port_info']}")
+        
+        if down_count == 3:
+            message = (
+                f"🚨 SITE DOWN\n\n"
+                f"URL: {last_result['url']}\n"
+                f"Status: {last_result['status']}\n"
+                f"Error: {last_result['error']}\n"
+                f"Ports: {last_result['port_info']}"
+            )
+
+            send_notification(message)
+
 
 try:
+    print("Starting URL analysis...")
     while True:
-        print("Starting URL analysis...")
         analyse_urls(urls_to_check)
         time.sleep(5)
 except KeyboardInterrupt:
