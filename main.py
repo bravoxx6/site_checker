@@ -28,20 +28,22 @@ def analyse_url(url):
         log_result(result)
         if result['status'] == "DOWN":
             down_count += 1
-
     print(f"URL: {last_result['url']}, "
             f"Response Time: {last_result['response_time']}s, "
             f"Status: {last_result['status']}, "
             f"Error: {last_result['error']}, "
-            f"Open Ports: {last_result['port_info']}")
+            f"Open Ports: {last_result['port_info']}, "
+            f"Status Level: {last_result['status_level']}"
+            )
     
     if down_count == 3:
         message = (
             f"🚨 SITE DOWN\n\n"
-            f"URL: {last_result['url']}\n"
-            f"Status: {last_result['status']}\n"
-            f"Error: {last_result['error']}\n"
-            f"Ports: {last_result['port_info']}"
+            f"🌐 URL: {last_result['url']}\n"
+            f"🚫 Status: {last_result['status']}\n"
+            f"⚠️ Error: {last_result['error']}\n"
+            f"🔌 Ports: {last_result['port_info']}\n"
+            f"📊 Status Level: {last_result['status_level']}\n"
         )
 
         send_notification(message)
@@ -57,3 +59,4 @@ try:
         time.sleep(5)
 except KeyboardInterrupt:
     print("URL analysis stopped by user.")
+    

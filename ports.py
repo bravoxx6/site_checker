@@ -24,6 +24,7 @@ def check_port(host):
             "host": host,
             "open_ports": open_ports,
             "error": None
+            
         }
     except socket.error as e:
         return {

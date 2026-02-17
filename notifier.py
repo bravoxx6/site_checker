@@ -7,6 +7,7 @@ load_dotenv()
 error_message = "There is something wrong with the site. Please check it as soon as possible."
 
 def send_notification(message):
+    print(f"Sending notification: {message}")
     url = f"https://api.telegram.org/bot{os.getenv('TG_TOKEN')}/sendMessage"
 
     params = {
@@ -19,3 +20,4 @@ def send_notification(message):
         print("Notification sent successfully!")
     except requests.exceptions.RequestException as e:
         print(f"Failed to send notification: {e}")
+
