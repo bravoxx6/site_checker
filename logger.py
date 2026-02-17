@@ -2,16 +2,16 @@ import logging
 import json
 from datetime import datetime
 import sqlite3
-import database
 
 logging.basicConfig(
-    filename="logs.txt",
+    filename="monitoring.log",
     level=logging.INFO,
-    format='%(message)s',
+    format='%(message)s'
 )
-conn = sqlite3.connect('monitoring.db')
+
 
 def log_result(result: dict):
+    conn = sqlite3.connect('monitoring.db')
     log_entry = {
         "timestamp": datetime.now().isoformat(),
         "url": result.get("url"),
@@ -43,13 +43,7 @@ def log_result(result: dict):
             log_entry['port_info'],
             log_entry['status_level']
         ))
-        print("Logged to database: ", log_entry)
         conn.commit()
     except sqlite3.Error as e:
         logging.error(f"Database error: {e}")
-    except Exception as e:
-        logging.error(f"Unexpected error: {e}")
-            
-  
-    
 

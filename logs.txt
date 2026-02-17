@@ -2435,3 +2435,257 @@ Database error: SQLite objects created in a thread can only be used in that same
 Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12540 and this is thread id 7272.
 {"timestamp": "2026-02-17T16:27:15.761405", "url": "https://play.google.com/store/apps/", "response_time": 1.18, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
 Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 12540 and this is thread id 15132.
+{"timestamp": "2026-02-17T16:29:49.700443", "url": "https://www.facebook.com/", "response_time": 1.07, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12664.
+{"timestamp": "2026-02-17T16:29:49.763264", "url": "https://www.facebook.com/", "response_time": 1.23, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3332.
+{"timestamp": "2026-02-17T16:29:49.809907", "url": "https://www.youtube.com/", "response_time": 1.2, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:29:49.904033", "url": "https://www.wikipedia.org/", "response_time": 1.24, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 16780.
+{"timestamp": "2026-02-17T16:29:50.015791", "url": "https://play.google.com/store/apps/", "response_time": 1.41, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5036.
+{"timestamp": "2026-02-17T16:29:54.015520", "url": "https://www.facebook.com/", "response_time": 1.06, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12664.
+{"timestamp": "2026-02-17T16:29:54.016000", "url": "https://www.facebook.com/", "response_time": 1.0, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3332.
+{"timestamp": "2026-02-17T16:29:54.141859", "url": "https://www.youtube.com/", "response_time": 1.15, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:29:54.265686", "url": "https://www.wikipedia.org/", "response_time": 1.12, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 16780.
+{"timestamp": "2026-02-17T16:29:54.439544", "url": "https://play.google.com/store/apps/", "response_time": 1.26, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5036.
+{"timestamp": "2026-02-17T16:29:58.437404", "url": "https://www.facebook.com/", "response_time": 1.16, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3332.
+{"timestamp": "2026-02-17T16:29:58.580304", "url": "https://www.youtube.com/", "response_time": 1.25, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:29:58.676466", "url": "https://www.facebook.com/", "response_time": 1.46, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12664.
+{"timestamp": "2026-02-17T16:29:58.701577", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:29:58.704487", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:29:58.707294", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:29:58.788305", "url": "https://www.wikipedia.org/", "response_time": 1.31, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 16780.
+{"timestamp": "2026-02-17T16:29:59.103323", "url": "https://play.google.com/store/apps/", "response_time": 1.47, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5036.
+{"timestamp": "2026-02-17T16:30:02.779704", "url": "https://www.youtube.com/", "response_time": 1.19, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3332.
+{"timestamp": "2026-02-17T16:30:02.985851", "url": "https://www.wikipedia.org/", "response_time": 1.04, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12664.
+{"timestamp": "2026-02-17T16:30:03.271662", "url": "https://play.google.com/store/apps/", "response_time": 1.32, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 16780.
+{"timestamp": "2026-02-17T16:30:03.651790", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 1.21, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5036.
+{"timestamp": "2026-02-17T16:30:05.425920", "url": "https://www.britannica.com/topic/wiki", "response_time": 2.46, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:30:07.255029", "url": "https://www.youtube.com/", "response_time": 1.3, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3332.
+{"timestamp": "2026-02-17T16:30:07.413309", "url": "https://www.wikipedia.org/", "response_time": 1.16, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12664.
+{"timestamp": "2026-02-17T16:30:07.809308", "url": "https://play.google.com/store/apps/", "response_time": 1.33, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 16780.
+{"timestamp": "2026-02-17T16:30:07.888352", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 1.01, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5036.
+{"timestamp": "2026-02-17T16:30:09.382274", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.92, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:30:11.292051", "url": "https://www.youtube.com/", "response_time": 0.87, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3332.
+{"timestamp": "2026-02-17T16:30:11.544688", "url": "https://www.wikipedia.org/", "response_time": 0.92, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12664.
+{"timestamp": "2026-02-17T16:30:12.031885", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.92, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5036.
+{"timestamp": "2026-02-17T16:30:12.143177", "url": "https://play.google.com/store/apps/", "response_time": 1.14, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 16780.
+{"timestamp": "2026-02-17T16:30:13.319859", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.9, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12312.
+{"timestamp": "2026-02-17T16:30:22.575627", "url": "https://www.youtube.com/", "response_time": 1.09, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14616.
+{"timestamp": "2026-02-17T16:30:22.653224", "url": "https://www.facebook.com/", "response_time": 1.11, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12044.
+{"timestamp": "2026-02-17T16:30:22.668757", "url": "https://www.facebook.com/", "response_time": 1.15, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:22.684418", "url": "https://www.wikipedia.org/", "response_time": 1.13, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 20616.
+{"timestamp": "2026-02-17T16:30:22.825201", "url": "https://play.google.com/store/apps/", "response_time": 1.32, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7000.
+{"timestamp": "2026-02-17T16:30:26.795576", "url": "https://www.facebook.com/", "response_time": 0.97, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12044.
+{"timestamp": "2026-02-17T16:30:26.857771", "url": "https://www.youtube.com/", "response_time": 1.12, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14616.
+{"timestamp": "2026-02-17T16:30:26.969421", "url": "https://www.facebook.com/", "response_time": 1.09, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:26.985052", "url": "https://www.wikipedia.org/", "response_time": 1.07, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 20616.
+{"timestamp": "2026-02-17T16:30:27.270148", "url": "https://play.google.com/store/apps/", "response_time": 1.24, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7000.
+{"timestamp": "2026-02-17T16:30:30.884089", "url": "https://www.facebook.com/", "response_time": 0.89, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12044.
+{"timestamp": "2026-02-17T16:30:31.039269", "url": "https://www.youtube.com/", "response_time": 1.0, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14616.
+{"timestamp": "2026-02-17T16:30:31.039585", "url": "https://www.facebook.com/", "response_time": 0.88, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:31.128365", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:31.131156", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:31.133988", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:31.182275", "url": "https://www.wikipedia.org/", "response_time": 0.97, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 20616.
+{"timestamp": "2026-02-17T16:30:31.579321", "url": "https://play.google.com/store/apps/", "response_time": 1.1, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7000.
+{"timestamp": "2026-02-17T16:30:35.048557", "url": "https://www.youtube.com/", "response_time": 0.97, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12044.
+{"timestamp": "2026-02-17T16:30:35.223856", "url": "https://www.wikipedia.org/", "response_time": 0.97, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14616.
+{"timestamp": "2026-02-17T16:30:35.525816", "url": "https://play.google.com/store/apps/", "response_time": 1.18, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 20616.
+{"timestamp": "2026-02-17T16:30:35.811033", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.98, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7000.
+{"timestamp": "2026-02-17T16:30:36.095875", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.91, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:39.149882", "url": "https://www.youtube.com/", "response_time": 0.91, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12044.
+{"timestamp": "2026-02-17T16:30:39.433489", "url": "https://www.wikipedia.org/", "response_time": 1.0, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14616.
+{"timestamp": "2026-02-17T16:30:39.862536", "url": "https://play.google.com/store/apps/", "response_time": 1.15, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 20616.
+{"timestamp": "2026-02-17T16:30:40.001402", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.97, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7000.
+{"timestamp": "2026-02-17T16:30:40.097375", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.96, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:43.267376", "url": "https://www.youtube.com/", "response_time": 0.93, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12044.
+{"timestamp": "2026-02-17T16:30:43.518456", "url": "https://www.wikipedia.org/", "response_time": 0.88, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14616.
+{"timestamp": "2026-02-17T16:30:44.169126", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.03, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 18240.
+{"timestamp": "2026-02-17T16:30:44.185026", "url": "https://play.google.com/store/apps/", "response_time": 1.15, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 20616.
+{"timestamp": "2026-02-17T16:30:44.201134", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.96, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7000.
+{"timestamp": "2026-02-17T16:30:53.491202", "url": "https://www.facebook.com/", "response_time": 1.01, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:30:53.553418", "url": "https://www.facebook.com/", "response_time": 1.12, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 13256.
+{"timestamp": "2026-02-17T16:30:53.569186", "url": "https://www.wikipedia.org/", "response_time": 1.11, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 2720.
+{"timestamp": "2026-02-17T16:30:53.617087", "url": "https://www.youtube.com/", "response_time": 1.17, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12760.
+{"timestamp": "2026-02-17T16:30:53.712077", "url": "https://play.google.com/store/apps/", "response_time": 1.31, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 6996.
+{"timestamp": "2026-02-17T16:30:57.710132", "url": "https://www.facebook.com/", "response_time": 0.97, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 13256.
+{"timestamp": "2026-02-17T16:30:57.820934", "url": "https://www.facebook.com/", "response_time": 1.11, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:30:57.868596", "url": "https://www.wikipedia.org/", "response_time": 1.07, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 2720.
+{"timestamp": "2026-02-17T16:30:57.884612", "url": "https://www.youtube.com/", "response_time": 1.08, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12760.
+{"timestamp": "2026-02-17T16:30:58.122463", "url": "https://play.google.com/store/apps/", "response_time": 1.23, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 6996.
+{"timestamp": "2026-02-17T16:31:01.838058", "url": "https://www.facebook.com/", "response_time": 0.83, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 13256.
+{"timestamp": "2026-02-17T16:31:01.902238", "url": "https://www.facebook.com/", "response_time": 0.87, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:31:01.993210", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:31:01.996338", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:31:01.998972", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:31:02.093843", "url": "https://www.youtube.com/", "response_time": 1.02, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12760.
+{"timestamp": "2026-02-17T16:31:02.109568", "url": "https://www.wikipedia.org/", "response_time": 1.01, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 2720.
+{"timestamp": "2026-02-17T16:31:02.599728", "url": "https://play.google.com/store/apps/", "response_time": 1.19, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 6996.
+{"timestamp": "2026-02-17T16:31:05.992228", "url": "https://www.youtube.com/", "response_time": 0.96, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 13256.
+{"timestamp": "2026-02-17T16:31:06.340215", "url": "https://www.wikipedia.org/", "response_time": 1.0, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12760.
+{"timestamp": "2026-02-17T16:31:06.511991", "url": "https://play.google.com/store/apps/", "response_time": 1.22, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 2720.
+{"timestamp": "2026-02-17T16:31:06.843062", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.96, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 6996.
+{"timestamp": "2026-02-17T16:31:06.985063", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.05, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:31:10.125692", "url": "https://www.youtube.com/", "response_time": 0.96, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 13256.
+{"timestamp": "2026-02-17T16:31:10.472249", "url": "https://www.wikipedia.org/", "response_time": 0.93, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12760.
+{"timestamp": "2026-02-17T16:31:10.949178", "url": "https://play.google.com/store/apps/", "response_time": 1.25, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 2720.
+{"timestamp": "2026-02-17T16:31:10.995293", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.96, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:31:11.075436", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.97, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 6996.
+{"timestamp": "2026-02-17T16:31:14.189370", "url": "https://www.youtube.com/", "response_time": 0.91, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 13256.
+{"timestamp": "2026-02-17T16:31:14.552193", "url": "https://www.wikipedia.org/", "response_time": 0.89, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 12760.
+{"timestamp": "2026-02-17T16:31:15.024484", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.99, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 5268.
+{"timestamp": "2026-02-17T16:31:15.215493", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.93, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 6996.
+{"timestamp": "2026-02-17T16:31:15.279583", "url": "https://play.google.com/store/apps/", "response_time": 1.16, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 2720.
+{"timestamp": "2026-02-17T16:31:24.633864", "url": "https://www.youtube.com/", "response_time": 1.16, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14684.
+{"timestamp": "2026-02-17T16:31:24.634877", "url": "https://www.wikipedia.org/", "response_time": 1.13, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+{"timestamp": "2026-02-17T16:31:24.634586", "url": "https://www.facebook.com/", "response_time": 1.12, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14948.
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3780.
+{"timestamp": "2026-02-17T16:31:24.696922", "url": "https://www.facebook.com/", "response_time": 1.2, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 388.
+{"timestamp": "2026-02-17T16:31:24.808506", "url": "https://play.google.com/store/apps/", "response_time": 1.35, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7400.
+{"timestamp": "2026-02-17T16:31:28.885546", "url": "https://www.facebook.com/", "response_time": 0.92, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 388.
+{"timestamp": "2026-02-17T16:31:28.917394", "url": "https://www.facebook.com/", "response_time": 1.05, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3780.
+{"timestamp": "2026-02-17T16:31:28.948586", "url": "https://www.youtube.com/", "response_time": 1.13, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14684.
+{"timestamp": "2026-02-17T16:31:28.948950", "url": "https://www.wikipedia.org/", "response_time": 1.08, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14948.
+{"timestamp": "2026-02-17T16:31:29.342579", "url": "https://play.google.com/store/apps/", "response_time": 1.32, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7400.
+{"timestamp": "2026-02-17T16:31:33.070916", "url": "https://www.facebook.com/", "response_time": 0.97, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 388.
+{"timestamp": "2026-02-17T16:31:33.102753", "url": "https://www.youtube.com/", "response_time": 0.98, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14684.
+{"timestamp": "2026-02-17T16:31:33.182964", "url": "https://www.facebook.com/", "response_time": 1.03, "status": "(HTTP 400)", "error": null, "port_info": "[80, 443]", "status_level": "WARNING"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3780.
+{"timestamp": "2026-02-17T16:31:33.270038", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14684.
+{"timestamp": "2026-02-17T16:31:33.272839", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14684.
+{"timestamp": "2026-02-17T16:31:33.275307", "url": "https://dattebae.com/", "response_time": null, "status": "DOWN", "error": "HTTPSConnectionPool(host='dattebae.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='dattebae.com', port=443): Failed to resolve 'dattebae.com' ([Errno 11001] getaddrinfo failed)\"))", "port_info": "null", "status_level": "ERROR"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14684.
+{"timestamp": "2026-02-17T16:31:33.279324", "url": "https://www.wikipedia.org/", "response_time": 1.09, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14948.
+{"timestamp": "2026-02-17T16:31:33.672615", "url": "https://play.google.com/store/apps/", "response_time": 1.13, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7400.
+{"timestamp": "2026-02-17T16:31:37.254612", "url": "https://www.youtube.com/", "response_time": 1.0, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 388.
+{"timestamp": "2026-02-17T16:31:37.380534", "url": "https://www.wikipedia.org/", "response_time": 0.98, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3780.
+{"timestamp": "2026-02-17T16:31:37.616566", "url": "https://play.google.com/store/apps/", "response_time": 1.16, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14948.
+{"timestamp": "2026-02-17T16:31:37.870568", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.95, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7400.
+{"timestamp": "2026-02-17T16:31:38.408460", "url": "https://www.britannica.com/topic/wiki", "response_time": 1.08, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14684.
+{"timestamp": "2026-02-17T16:31:41.377263", "url": "https://www.youtube.com/", "response_time": 0.97, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 388.
+{"timestamp": "2026-02-17T16:31:41.520589", "url": "https://www.wikipedia.org/", "response_time": 0.92, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 3780.
+{"timestamp": "2026-02-17T16:31:41.998527", "url": "https://commons.wikimedia.org/wiki/Main_Page", "response_time": 0.91, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 7400.
+{"timestamp": "2026-02-17T16:31:42.014652", "url": "https://play.google.com/store/apps/", "response_time": 1.21, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14948.
+{"timestamp": "2026-02-17T16:31:42.364486", "url": "https://www.britannica.com/topic/wiki", "response_time": 0.93, "status": "UP", "error": null, "port_info": "[80, 443]", "status_level": "INFO"}
+Database error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 13132 and this is thread id 14684.
