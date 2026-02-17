@@ -1,6 +1,7 @@
 import sqlite3
 from sys import monitoring
 
+
 def create_database():
     conn = sqlite3.connect('monitoring.db')
     cursor = conn.cursor()

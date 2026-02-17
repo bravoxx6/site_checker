@@ -13,7 +13,7 @@ logging.basicConfig(
 def log_result(result: dict):
     conn = sqlite3.connect('monitoring.db')
     log_entry = {
-        "timestamp": datetime.now().isoformat(),
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "url": result.get("url"),
         "response_time": result.get("response_time"),
         "status": result.get("status"),
