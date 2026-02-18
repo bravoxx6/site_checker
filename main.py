@@ -5,6 +5,7 @@ import json
 from notifier import send_notification
 file_path = 'config.json'
 from concurrent.futures import ThreadPoolExecutor
+import sqlite3
 
 try:
     with open(file_path, 'r') as f:
@@ -13,19 +14,20 @@ try:
         ports_to_check = config.get("ports", [])
         
 except FileNotFoundError:
-    print(f"Configuration file '{file_path}' not found. Please create it with the necessary URLs.")
+    print(f"Configuration file '{file_path}' not found. Please create it with the necessary URLs and ports.")
     urls_to_check = []
+    ports_to_check = [80, 20, 443, 21, 22, 3306]
     
 
 def analyse_url(url):
     down_count = 0
     last_result = None
-
+    conn = sqlite3.connect('monitoring.db')
     for _ in range(3):
-        result = check_url(url)
+        result = check_url(url, ports_to_check)
         last_result = result
 
-        log_result(result)
+        log_result(result, conn)
         if result['status'] == "DOWN":
             down_count += 1
     print(f"URL: {last_result['url']}, "

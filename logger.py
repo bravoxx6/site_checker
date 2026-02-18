@@ -10,8 +10,7 @@ logging.basicConfig(
 )
 
 
-def log_result(result: dict):
-    conn = sqlite3.connect('monitoring.db')
+def log_result(result: dict, conn):
     log_entry = {
         "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "url": result.get("url"),
