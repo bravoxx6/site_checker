@@ -1,86 +1,136 @@
-# Site Checker 🔍
+Отличный вариант! Для твоего текущего уровня проекта этот стиль подходит идеально. Я объединил твой прошлый опыт с новыми технологиями, которые мы добавили (FastAPI, SQLite WAL, AJAX), и перевел всё на английский.
 
-A simple Python monitoring tool that checks website availability, response time, open ports, and sends Telegram notifications when a site goes down.
-
----
-
-## Features
-
-- Website availability monitoring
-- Response time measurement
-- Port scanning
-- Logging to file
-- Concurrent checks using threads
-- Telegram alerts when a site is DOWN
+Вот финальный текст для твоего **README.md**:
 
 ---
 
-## Project Structure
+# 🔍 Site Sentinel: Advanced Monitoring System
 
+A robust Python-based monitoring solution that tracks website availability, response times, and open ports. It features a real-time web dashboard and sends instant Telegram alerts if a service fails.
+
+---
+
+## ✨ Features
+
+* **Dynamic Web Dashboard:** View real-time status without page reloads (AJAX/Fetch).
+* **Multi-threaded Worker:** Concurrent website checks for high performance.
+* **SQLite with WAL Mode:** Efficient database handling for simultaneous read/write operations.
+* **Control Panel:** Activate or deactivate monitoring directly from the dashboard.
+* **Triple-Check Logic:** Alerts are sent only after 3 consecutive failures to prevent false alarms.
+* **Port Scanning:** Checks critical infrastructure ports (80, 443, 22, etc.).
+* **Telegram Integration:** Instant notifications for downtime events.
+
+---
+
+## 📂 Project Structure
+
+```text
 site_checker/
 │
-├── main.py # Main monitoring loop
-├── checker.py # URL availability checker
-├── ports.py # Port scanner
-├── logger.py # Logging module
-├── notifier.py # Telegram notifications
-├── config.json # Configuration file
-├── logs.txt # Log output
-└── README.md
+├── main.py          # Background monitoring worker
+├── dashboard.py     # FastAPI server & API endpoints
+├── checker.py       # URL availability logic
+├── ports.py         # Socket-based port scanner
+├── database.py      # SQLite schema and initialization
+├── logger.py        # Database and file logging module
+├── notifier.py      # Telegram notification service
+├── templates/       # Frontend HTML files
+├── config.json      # Target URLs and ports configuration
+└── monitoring.db    # SQLite database (auto-generated)
 
+```
 
 ---
 
-## Installation
+## 🛠 Installation
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/bravoxx6/site_checker.git
 cd site_checker
-```
-### 1. Clone the repository
-```
-pip install requests python-dotenv
-```
-3. Create .env file
 
-Create a file named .env in the project root:
 ```
+
+### 2. Install dependencies
+
+```bash
+pip install requests python-dotenv fastapi uvicorn jinja2
+
+```
+
+### 3. Setup Environment
+
+Create a `.env` file in the root directory:
+
+```env
 TG_TOKEN=your_telegram_bot_token
 TG_CHAT_ID=your_chat_id
+
 ```
-4. Configure sites
 
-Edit config.json
+### 4. Configure targets
 
-Usage
+Edit `config.json` to include the URLs and ports you want to monitor.
 
-Run the monitor:
+---
+
+## 🚀 Usage
+
+### 1. Initialize the system
+
+First, set up the database tables:
+
+```bash
+python database.py
+
 ```
+
+### 2. Start the Monitor (Worker)
+
+Run the background checker in the first terminal:
+
+```bash
 python main.py
+
 ```
-The program will:
 
-1. Check each site
-2. Log results to logs.txt
-3. Send Telegram alert if a site fails 3 times in a row
+### 3. Launch the Dashboard
 
-How Alerts Work
-A Telegram notification is sent ONLY when:
+Run the web server in a second terminal:
 
-A site returns DOWN status
-It fails 3 consecutive checks
-This prevents false alarms.
+```bash
+uvicorn dashboard:app --reload
 
-Logs
-Logs are saved in: logs.txt
+```
 
+Open your browser at `http://127.0.0.1:8000/dashboard`.
 
-Built for practice in:
+---
 
-Python
-Networking
-Monitoring systems
-Logging architecture
-Alerting systems
+## ⚙️ How it works
+
+1. **State Management:** The Dashboard writes the "Active/Inactive" status to a `settings` table in SQLite.
+2. **The Worker:** `main.py` polls this status every 10 seconds. If active, it spawns threads to check your sites.
+3. **Observability:** Results are logged into `monitoring.db`. The dashboard's JavaScript fetches the latest results every 5 seconds via a REST API.
+
+---
+
+## 🎓 Learning Objectives
+
+This project was built to master:
+
+* **DevOps:** Implementing Control Plane/Data Plane separation.
+* **Backend:** Building REST APIs with FastAPI.
+* **Database:** Managing concurrency with SQLite WAL mode.
+* **Frontend:** Asynchronous DOM updates with Vanilla JavaScript.
+
+---
+
+### Что это дает:
+
+* **Профессиональный вид:** Описание архитектуры (Control/Data Plane) сразу выделяет тебя среди новичков.
+* **Понятные шаги:** Разделение терминалов для `main.py` и `uvicorn` — это классика микросервисного подхода.
+* **Скриншоты:** Если у тебя есть возможность, добавь в README скриншот своего работающего дашборда — это увеличивает интерес к репозиторию в разы.
+
+**Удачи с публикацией! Это отличная точка в проекте.**
