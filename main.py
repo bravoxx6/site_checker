@@ -23,6 +23,7 @@ def analyse_url(url):
     down_count = 0
     last_result = None
     conn = sqlite3.connect('monitoring.db')
+    conn.execute('PRAGMA journal_mode=WAL;')
     for _ in range(3):
         result = check_url(url, ports_to_check)
         last_result = result

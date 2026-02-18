@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Monitoring Dashboard</title>
+    <meta http-equiv="refresh" content="30">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; background-color: #f4f7f6; }
+        table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #007bff; color: white; }
+        tr:hover { background-color: #f1f1f1; }
+        .status-badge { padding: 4px 8px; border-radius: 4px; font-weight: bold; }
+        .INFO { color: #066ac9; background-color: #d4edda; }
+        .WARNING { color: #b38600; background-color: #fff3cd; }
+        .ERROR { color: #721c24; background-color: #f8d7da; }
+    </style>
+</head>
+<body>
+    <h1>🌐 Мониторинг сайтов</h1>
+    <table>
+        <tr>
+            <th>URL</th>
+            <th>Время отклика (с)</th>
+            <th>Статус</th>
+            <th>Порты</th>
+            <th>Уровень</th>
+            <th>Последняя проверка</th>
+        </tr>
+        {% for result in results %}
+        <tr>
+            <td><strong>{{ result.url }}</strong></td>
+            <td>{{ result.response_time if result.response_time else '—' }}</td>
+            <td>{{ result.status }}</td>
+            <td><code>{{ result.port_info }}</code></td>
+            <td>
+                <span class="status-badge {{ result.status_level }}">
+                    {{ result.status_level }}
+                </span>
+            </td>
+            <td>{{ result.timestamp }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

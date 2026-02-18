@@ -5,6 +5,7 @@ from sys import monitoring
 def create_database():
     conn = sqlite3.connect('monitoring.db')
     cursor = conn.cursor()
+    cursor.execute('PRAGMA journal_mode=WAL;')
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS monitoring_results (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -17,6 +18,7 @@ def create_database():
             timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
         )
     ''')
+    
     conn.commit()
     conn.close()
     print("Database IS READY")
