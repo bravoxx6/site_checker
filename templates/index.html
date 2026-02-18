@@ -2,44 +2,105 @@
 <html>
 <head>
     <title>URL Monitoring Dashboard</title>
-    <meta http-equiv="refresh" content="30">
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px; background-color: #f4f7f6; }
+        .controls { margin-bottom: 20px; padding: 15px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; align-items: center; gap: 15px; }
         table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
         th { background-color: #007bff; color: white; }
-        tr:hover { background-color: #f1f1f1; }
+        
+        /* Стили для кнопки */
+        .btn { padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; transition: 0.3s; }
+        .btn-start { background-color: #28a745; color: white; }
+        .btn-stop { background-color: #dc3545; color: white; }
+        .status-text { font-style: italic; color: #666; }
+
         .status-badge { padding: 4px 8px; border-radius: 4px; font-weight: bold; }
-        .INFO { color: #066ac9; background-color: #d4edda; }
-        .WARNING { color: #b38600; background-color: #fff3cd; }
+        .INFO { color: #155724; background-color: #d4edda; }
+        .WARNING { color: #856404; background-color: #fff3cd; }
         .ERROR { color: #721c24; background-color: #f8d7da; }
     </style>
 </head>
 <body>
     <h1>🌐 Мониторинг сайтов</h1>
+
+    <div class="controls">
+        <button id="toggle-btn" class="btn btn-start">Запустить мониторинг</button>
+        <span id="monitor-status" class="status-text">Статус: Остановлен</span>
+    </div>
+
     <table>
-        <tr>
-            <th>URL</th>
-            <th>Время отклика (с)</th>
-            <th>Статус</th>
-            <th>Порты</th>
-            <th>Уровень</th>
-            <th>Последняя проверка</th>
-        </tr>
-        {% for result in results %}
-        <tr>
-            <td><strong>{{ result.url }}</strong></td>
-            <td>{{ result.response_time if result.response_time else '—' }}</td>
-            <td>{{ result.status }}</td>
-            <td><code>{{ result.port_info }}</code></td>
-            <td>
-                <span class="status-badge {{ result.status_level }}">
-                    {{ result.status_level }}
-                </span>
-            </td>
-            <td>{{ result.timestamp }}</td>
-        </tr>
-        {% endfor %}
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Время отклика (с)</th>
+                <th>Статус</th>
+                <th>Порты</th>
+                <th>Уровень</th>
+                <th>Последняя проверка</th>
+            </tr>
+        </thead>
+        <tbody id="data-table">
+            <tr>
+                <td colspan="6" style="text-align:center;">Загрузка данных...</td>
+            </tr>
+        </tbody>
     </table>
+
+    <script>
+        const tableBody = document.getElementById('data-table');
+const toggleBtn = document.getElementById('toggle-btn');
+const statusText = document.getElementById('monitor-status');
+
+let updateInterval;
+
+// Функция для получения данных и обновления таблицы
+async function updateData() {
+    try {
+        const response = await fetch('/api/data');
+        const data = await response.json();
+        
+        // Очищаем таблицу и наполняем заново
+        tableBody.innerHTML = data.map(result => `
+            <tr>
+                <td><strong>${result.url}</strong></td>
+                <td>${result.response_time || '—'}</td>
+                <td>${result.status}</td>
+                <td><code>${result.port_info}</code></td>
+                <td>
+                    <span class="status-badge ${result.status_level}">
+                        ${result.status_level}
+                    </span>
+                </td>
+                <td>${result.timestamp}</td>
+            </tr>
+        `).join('');
+    } catch (err) {
+        console.error("Ошибка обновления данных:", err);
+    }
+}
+
+// Логика кнопки
+toggleBtn.addEventListener('click', async () => {
+    const response = await fetch('/api/toggle', { method: 'POST' });
+    const state = await response.json();
+
+    if (state.is_active) {
+        // Запуск
+        toggleBtn.textContent = "Остановить мониторинг";
+        toggleBtn.className = "btn btn-stop";
+        statusText.textContent = "Статус: Работает";
+        // Обновляем данные каждые 5 секунд
+        updateInterval = setInterval(updateData, 5000);
+        updateData(); // Сразу обновляем при старте
+    } else {
+        // Остановка
+        toggleBtn.textContent = "Запустить мониторинг";
+        toggleBtn.className = "btn btn-start";
+        statusText.textContent = "Статус: Остановлен";
+        clearInterval(updateInterval);
+    }
+});
+    </script>
 </body>
 </html>

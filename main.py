@@ -51,15 +51,27 @@ def analyse_url(url):
 
         send_notification(message)
 
-def analyse_urls_concurrently(urls):
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        executor.map(analyse_url, urls)
+def is_monitoring_enabled():
+    try:
+        conn = sqlite3.connect('monitoring.db')
+        cursor = conn.cursor()
+        cursor.execute("SELECT value FROM settings WHERE key = 'monitoring_active'")
+        row = cursor.fetchone()
+        conn.close()
+        return row and row[0] == 'True'
+    except Exception as e:
+        print(f"Error checking settings: {e}")
+        return False
 
-try:
-    print("Starting URL analysis...")
+# В основном блоке программы:
+if __name__ == "__main__":
     while True:
-        analyse_urls_concurrently(urls_to_check)
-        time.sleep(5)
-except KeyboardInterrupt:
-    print("URL analysis stopped by user.")
+        if is_monitoring_enabled():
+            print("Мониторинг активен, начинаю проверку...")
+            with ThreadPoolExecutor(max_workers=5) as executor:
+                executor.map(analyse_url, urls_to_check)
+        else:
+            print("Мониторинг на паузе. Жду...") # При остановленном мониторинге просто ждем и не выполняем проверки. Коду немного нужно времени для обработки команды остановки
+        
+        time.sleep(10) # Проверяем статус и крутим цикл каждые 10 сек
     

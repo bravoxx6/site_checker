@@ -22,3 +22,17 @@ def create_database():
     conn.commit()
     conn.close()
     print("Database IS READY")
+
+def create_settings_table():
+    conn = sqlite3.connect('monitoring.db')
+    cursor = conn.cursor()
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS settings (
+            key TEXT PRIMARY KEY,
+            value TEXT
+        )
+    ''')
+    # По умолчанию мониторинг выключен
+    cursor.execute("INSERT OR IGNORE INTO settings (key, value) VALUES ('monitoring_active', 'false')")
+    conn.commit()
+    conn.close()
