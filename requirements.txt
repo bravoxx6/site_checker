@@ -1,0 +1,6 @@
+requests
+fastapi
+uvicorn
+python-dotenv
+jinja2
+sqlite3
