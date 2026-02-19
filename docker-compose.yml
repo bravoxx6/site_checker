@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  monitor:
+    build: .
+    container_name: site_checker
+    restart: always
+    command: python app/main.py
+    volumes:
+      - db_data:/first_project
+      - ./logs:/first_project/logs
+    env_file:
+      - .env
+
+  dashboard:
+    build: .
+    container_name: site_checker_dashboard
+    command: uvicorn app.dashboard:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - db_data:/first_project
+    depends_on:
+      - monitor
+    env_file:
+      - .env
+
+volumes:
+  db_data:

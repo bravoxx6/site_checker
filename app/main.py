@@ -6,6 +6,19 @@ from notifier import send_notification
 file_path = 'config.json'
 from concurrent.futures import ThreadPoolExecutor
 import sqlite3
+import threading
+
+# SQLite connection pool with mutex to prevent concurrent access
+_db_lock = threading.Lock()
+DB_PATH = 'monitoring.db'
+
+def get_db_connection():
+    """Get a database connection with proper settings for concurrent access."""
+    conn = sqlite3.connect(DB_PATH, timeout=30, check_same_thread=False)
+    conn.execute('PRAGMA journal_mode=WAL;')
+    conn.execute('PRAGMA synchronous=NORMAL;')
+    conn.execute('PRAGMA busy_timeout=30000;')
+    return conn
 
 try:
     with open(file_path, 'r') as f:
@@ -22,13 +35,18 @@ except FileNotFoundError:
 def analyse_url(url):
     down_count = 0
     last_result = None
-    conn = sqlite3.connect('monitoring.db')
-    conn.execute('PRAGMA journal_mode=WAL;')
     for _ in range(3):
         result = check_url(url, ports_to_check)
         last_result = result
 
-        log_result(result, conn)
+        # Use lock to prevent concurrent database writes
+        with _db_lock:
+            conn = get_db_connection()
+            try:
+                log_result(result, conn)
+            finally:
+                conn.close()
+        
         if result['status'] == "DOWN":
             down_count += 1
     print(f"URL: {last_result['url']}, "
@@ -53,12 +71,15 @@ def analyse_url(url):
 
 def is_monitoring_enabled():
     try:
-        conn = sqlite3.connect('monitoring.db')
-        cursor = conn.cursor()
-        cursor.execute("SELECT value FROM settings WHERE key = 'monitoring_active'")
-        row = cursor.fetchone()
-        conn.close()
-        return row and row[0] == 'True'
+        with _db_lock:
+            conn = get_db_connection()
+            try:
+                cursor = conn.cursor()
+                cursor.execute("SELECT value FROM settings WHERE key = 'monitoring_active'")
+                row = cursor.fetchone()
+                return row and row[0] == 'True'
+            finally:
+                conn.close()
     except Exception as e:
         print(f"Error checking settings: {e}")
         return False
@@ -74,4 +95,3 @@ if __name__ == "__main__":
             print("Мониторинг на паузе. Жду...") # При остановленном мониторинге просто ждем и не выполняем проверки. Коду немного нужно времени для обработки команды остановки
         
         time.sleep(10) # Проверяем статус и крутим цикл каждые 10 сек
-    
